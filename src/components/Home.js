@@ -13,7 +13,7 @@ const Home = () => {
   const quoteArr = [
     {
       id: "0",
-      quote: "You can't get rid of me easily"
+      quote: "You can not get rid of me so easily"
     },
     {
       id: "1",
