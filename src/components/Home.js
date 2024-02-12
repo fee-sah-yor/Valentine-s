@@ -6,16 +6,14 @@ const Home = () => {
   const [display, setDisplay] = useState(0);
 
   const handleBtnClick = () => {
-    console.log('here')
     setClick(true)
-    console.log('here')
     setDisplay(display === quoteArr.length - 1 ? 0 : display + 1);
   }
 
   const quoteArr = [
     {
       id: "0",
-      quote: "I will stay, I command it, George!!"
+      quote: "You can't get rid of me easily"
     },
     {
       id: "1",
@@ -28,6 +26,10 @@ const Home = () => {
     {
       id: "3",
       quote: "I have heard that you want me to go"
+    },
+    {
+      id: "4",
+      quote: "That you do not wish to see me"
     },
 
   ]
@@ -45,7 +47,7 @@ const Home = () => {
 
         {/* ===============GIF========== */}
         <div className='LOML'>
-          <img src='https://media.giphy.com/media/gDfteqLchLcRTtjAD7/giphy.gif' alt='my cute loml' />
+          <img src='https://media.giphy.com/media/gDfteqLchLcRTtjAD7/giphy.gif' alt='my cute loml' className='homeImage'/>
         </div>
 
         {/* =======BUTTONS======= */}

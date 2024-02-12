@@ -7,8 +7,8 @@ const Yes = () => {
     <div className='love-box'>
 
       {/* ===============GIF========== */}
-      <div className='lover-body'>
-        <img src='https://media.giphy.com/media/QutcJFD0eBHKIVcAW8/giphy.gif' alt='my cute loml' className='lover'/>
+      <div className='yesImgDiv'>
+        <img src='https://media.giphy.com/media/QutcJFD0eBHKIVcAW8/giphy.gif' alt='my cute loml' className='yesImage'/>
       </div>
 
       {/* =======BUTTONS======= */}
