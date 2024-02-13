@@ -2,11 +2,11 @@ import React from 'react'
 
 const Yes = () => {
    // ========for whatsapp link
-   const senderPhoneNumber = "2348136290820";
-  const handleBtnClick = () => {
-    const whatsappLink = `https://wa.me/${senderPhoneNumber}`;
-    window.location.href = whatsappLink;
-  }
+  //  const senderPhoneNumber = "";
+  // const handleBtnClick = () => {
+  //   const whatsappLink = `https://wa.me/${senderPhoneNumber}`;
+  //   window.location.href = whatsappLink;
+  // }
   return (
     <div className='yesCont'>
     <div className='yesBox'>
@@ -17,9 +17,9 @@ const Yes = () => {
       </div>
 
 {/* =======link to senders contact======== */}
-    <button onClick={handleBtnClick}>
+    {/* <button onClick={handleBtnClick}>
       Text me?
-    </button>
+    </button> */}
     </div>
   </div>
   )
