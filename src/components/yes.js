@@ -18,7 +18,7 @@ const Yes = () => {
 
 {/* =======link to senders contact======== */}
     <button onClick={handleBtnClick}>
-      Text me?
+      Text me
     </button>
     </div>
   </div>
