@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Yes = () => {
+   // ========for whatsapp link
+   const senderPhoneNumber = "2348136290820";
+  const handleBtnClick = () => {
+    const whatsappLink = `https://wa.me/${senderPhoneNumber}`;
+    window.location.href = whatsappLink;
+  }
   return (
     <div className='yesCont'>
     <div className='yesBox'>
@@ -12,9 +17,9 @@ const Yes = () => {
       </div>
 
 {/* =======link to senders contact======== */}
-    {/* <Link to = {'./yes'}>
+    <button onClick={handleBtnClick}>
       Text me?
-    </Link> */}
+    </button>
     </div>
   </div>
   )

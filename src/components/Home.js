@@ -34,6 +34,8 @@ const Home = () => {
 
   ]
 
+ 
+
   return (
     <div className='container'>
       <div className='love-box'>
@@ -54,7 +56,7 @@ const Home = () => {
         <div className='button-cont'>
 
           <Link type="submit" id="yes" to='/yes'>
-            Yes! I love you too
+            Yes! I will
           </Link>
 
           <button type="submit" id="no" onClick={handleBtnClick}>
